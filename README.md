@@ -1,6 +1,3 @@
-# bGreen Template Reactjs <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fteguhoktian%2Fbgreen-template.git&text=Free%20mobile%20friendly%20Reactjs%20Tailwind%20Template%20on%20Github" target="_blank">![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&logo=twitter)</a>
-
-![bGreen Template](https://github.com/teguhoktian/bgreen-template/blob/master/public/bGreenMockUp.png?raw=true)
 
 ### Get Started
 
@@ -37,15 +34,3 @@ Here are all the page from the project:
 
 This template provides Responsive Navigation and Mobile Friendly Feature based on Tailwind CSS and Javascript.
 
-### Licensing
-
-- Copyright 2023 [Raincode.My.Id](https://raincode.my.id)
-- Licensed under **MIT**
-
-### Demo
-
-Demo: <a href="https://thriving-kataifi-7c5d45.netlify.app/">Demo with Netlify</a>
-
-### Donation
-
-Buy Me some Cofee and Snack with Donate me at [Saweria](https://saweria.co/raincodemyid)
