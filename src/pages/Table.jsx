@@ -1,110 +1,55 @@
-import React, { useState } from "react";
-import Navbar from "../components/Navbar/Index";
-import { useOutletContext } from "react-router-dom";
-import UserTable from "./UserTable";
+import React from "react";
+
+import { FaPerbyte } from "react-icons/fa";
+import Accordion from "../components/Accordion";
+import FAQQ from "../components/FAQQ";
+
 
 function Table() {
-  const [sidebarToggle] = useOutletContext();
 
-  const [loading] = useState(false);
-
-  const dataHeader = [
-    {
-      key: "name",
-      label: "Name",
-    },
-    {
-      key: "email",
-      label: "Email",
-    },
-    {
-      key: "username",
-      label: "Username",
-    },
-    {
-      key: "role",
-      label: "Role",
-    },
-    {
-      key: "action",
-      label: "Aksi",
-    },
-  ];
-
-  const handleDelete = () => {};
-  const data = [
-    {
-      id: 1,
-      name: "Indah Sari Devi",
-      email: "mamahdedeh34@gmail.com",
-      username: "indahsdev01",
-      roles: [{ name: "Admin" }, { name: "Writer" }],
-    },
-    {
-      id: 2,
-      name: "Mahindra Putra",
-      email: "maheend@gmail.com",
-      username: "maheeend01",
-      roles: [{ name: "Editor" }],
-    },
-    {
-      id: 3,
-      name: "Ujang Ilman",
-      email: "ujangil03@gmail.com",
-      username: "uujang44",
-      roles: [{ name: "Writer" }],
-    },
-
-    {
-      id: 4,
-      name: "Hadi Pradhana",
-      email: "hapra09@gmail.com",
-      username: "hapra09",
-      roles: [{ name: "Writer" }],
-    },
-    {
-      id: 1,
-      name: "Indah Sari Devi",
-      email: "mamahdedeh34@gmail.com",
-      username: "indahsdev01",
-      roles: [{ name: "Admin" }, { name: "Writer" }],
-    },
-    {
-      id: 2,
-      name: "Mahindra Putra",
-      email: "maheend@gmail.com",
-      username: "maheeend01",
-      roles: [{ name: "Editor" }],
-    },
-    {
-      id: 3,
-      name: "Ujang Ilman",
-      email: "ujangil03@gmail.com",
-      username: "uujang44",
-      roles: [{ name: "Writer" }],
-    },
-
-    {
-      id: 4,
-      name: "Hadi Pradhana",
-      email: "hapra09@gmail.com",
-      username: "hapra09",
-      roles: [{ name: "Writer" }],
-    },
-    {
-      id: 4,
-      name: "Hadi Pradhana",
-      email: "hapra09@gmail.com",
-      username: "hapra09",
-      roles: [{ name: "Writer" }],
-    },
-  ];
   return (
     <>
-      <main className="h-full">
-        <Navbar toggle={sidebarToggle} />
+      <main className="main_practise">
+        <div className="terminal_space">
+          <div className="full_screen"> 
+          <div class></div>
+          <FaPerbyte className="cona"/> 
+          </div>
+          <div className="terminal"></div>
+          <div className="terminal_title">Practice in the linux instance </div>
+          <div className="nav_bottom">
+            <Accordion />
+          </div>
 
-        {/* Main Content */}
+
+        </div>
+
+
+        <div className = "video_space">
+          <div className="video_icon">
+          
+          <FaPerbyte className="cona"/> 
+
+          </div>
+          <div className="video_containter">
+          <iframe width="450" height="280" src="https://www.youtube-nocookie.com/embed/gd7BXuUQ91w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+          </div>
+          <div className="title_video">
+          Video : Navigating the file system
+          </div>
+
+          <div className="navigo">
+          <FAQQ />
+
+          </div>
+
+          <button className="next">NEXT</button>
+
+
+
+        </div>
+       
     
       </main>
     </>
