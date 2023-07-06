@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ChatUI from "../components/ChatUI";
 
-const Accordion = () => {
+const Accpython = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const handleClick = (index) => {
@@ -16,13 +16,12 @@ const Accordion = () => {
       </div>
       <div className="accordion__contents">
         <div className={`accordion__content cord ${activeIndex === 0 ? 'active' : ''}`}>
-          <div className='Greneto'><span className='Valide'>V</span>open Terminal</div>
-          <div className='Greneto'><span className='Valide'>V</span>print current directory</div>
-          <div className='Greneto'><span className='Valide'>V</span>show files in this directory</div>
-          <div className='Greneto'><span className='Valide'>V</span>Create a directory cloud</div>
-          <div className='Greneto'><span className='Valide'>V</span>change directory to Cloud </div>
-          <div className='Greneto'><span className='Valide'>V</span>create an index.html</div>
-          <div className='Greneto'><span className='Valide'>V</span>Clear terminal</div>
+          <div className='Greneto'><span className='Valide'>V</span>open Editor</div>
+          <div className='Greneto'><span className='Valide'>V</span>Declare a variable number and give it a value of 5</div>
+          <div className='Greneto'><span className='Valide'>V</span>test if number is positive number</div>
+          <div className='Greneto'><span className='Valide'>V</span>print output</div>
+          
+          <div className='Greneto'><span className='Valide'>V</span>Clear Editor</div>
 
           <div className='Greneto'><span className='Valide'>X</span>Close terminal</div>
         </div>
@@ -34,4 +33,4 @@ const Accordion = () => {
   );
 };
 
-export default Accordion;
+export default Accpython;

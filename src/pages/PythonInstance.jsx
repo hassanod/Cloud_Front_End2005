@@ -1,11 +1,11 @@
 import React from "react";
 
 import { FaPerbyte } from "react-icons/fa";
-import Accordion from "../components/Accordion";
-import FAQQ from "../components/FAQQ";
+import Accpython from "../components/Accpython";
+import Bifaq from "../components/Bifaq";
 
 
-function Table() {
+function PythonInstance() {
 
   return (
     <>
@@ -18,7 +18,7 @@ function Table() {
           <div className="terminal">
           
       <iframe
-        src="https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192"
+        src="https://www.programiz.com/python-programming/online-compiler/"
         title="Embedded Content"
         style={{ width: '100%', height: '100%' }}
         
@@ -27,7 +27,7 @@ function Table() {
           </div>
           <div className="terminal_title">Practice in the linux instance </div>
           <div className="nav_bottom">
-            <Accordion />
+            <Accpython />
           </div>
 
 
@@ -41,7 +41,7 @@ function Table() {
 
           </div>
           <div className="video_containter">
-          <iframe width="500" height="280" src="https://www.youtube-nocookie.com/embed/gd7BXuUQ91w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          <iframe width="500" height="280" src="https://www.youtube-nocookie.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
           </div>
           <div className="title_video">
@@ -49,7 +49,7 @@ function Table() {
           </div>
 
           <div className="navigo">
-          <FAQQ />
+          <Bifaq />
 
           </div>
 
@@ -65,4 +65,4 @@ function Table() {
   );
 }
 
-export default Table;
+export default PythonInstance;

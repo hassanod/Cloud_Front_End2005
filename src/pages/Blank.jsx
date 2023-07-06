@@ -1,6 +1,8 @@
 import React from "react";
 
 import { useOutletContext } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 function Blank() {
   const [sidebarToggle] = useOutletContext();
@@ -11,11 +13,19 @@ function Blank() {
 
     <div className="top">
 
+    <Link to="/"><button className="close_button">X Join a Class</button>
+            
+          </Link>
 
-    <button className="close_button">X Join a Class</button>
-      <button className="join_button">
+
+          <Link to="/"><button className="join_button">
         Join the Class
       </button>
+            
+          </Link>
+
+    
+      
     </div>
 
     
@@ -26,7 +36,7 @@ function Blank() {
 
         <div className="left">
 
-        <span className="e1">hassan oudrar</span>
+        <span className="e1">Faissal Ezzine</span>
         <span className="e2">hassan111@gmail.com</span>
 
         </div>

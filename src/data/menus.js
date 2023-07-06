@@ -22,24 +22,11 @@ const initMenu = [
     icon: faPage4,
   },
   {
-    label: "course_content",
-    path: "/404",
+    label: "Settings",
+    path: "/settingpage",
     icon: faNotdef,
   },
   
-  {
-    label: 'les pages a faire'
-  },
-  {
-    label: "InstanceProgress",
-    path: "/form",
-    icon: faWindows,
-  },
-  {
-    label: "VideoProgress",
-    path: "/table",
-    icon: faTable,
-  },
   
 
   {

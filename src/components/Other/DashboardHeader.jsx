@@ -29,13 +29,11 @@ function DashboardHeader({ user, avatar, toggle }) {
       </div>
       <div className="avaterSection flex items-center gap-2 sm:gap-6 text-slate-400">
         <div className="hidden md:flex flex-row gap-4 text-xl">
-          <Link to="/">
+          <Link to="/settingpage">
             <FontAwesomeIcon icon={faCog}></FontAwesomeIcon>
           </Link>
-          <Link to="/">
-            <FontAwesomeIcon icon={faBell}></FontAwesomeIcon>
-          </Link>
-          <Link to="/">
+         
+          <Link to="/blank">
             <FontAwesomeIcon icon={faAdd}></FontAwesomeIcon>
           </Link>
         </div>

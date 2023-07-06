@@ -9,6 +9,15 @@ import Login from "./pages/auth/Login";
 import Blank from "./pages/Blank";
 import NotFound from "./pages/NotFound";
 import Form from "./pages/Form";
+import Python from "./pages/Python";
+import Cpp from "./pages/Cpp";
+
+import PythonInstance from "./pages/PythonInstance";
+
+
+
+import SettingPage from "./pages/SettingPage";
+
 import RegisterIndex from "./pages/auth/Register";
 
 function App() {
@@ -21,6 +30,16 @@ function App() {
         <Route path="/404" element={<NotFound />}></Route>
         <Route path="/form" element={<Form />}></Route>
         <Route path="/profile" element={<Blank />}></Route>
+        <Route path="/python" element={<Python />}></Route>
+        <Route path="/pythoninstance" element={<PythonInstance />}></Route>
+        <Route path="/cpp" element={<Cpp />}></Route>
+
+        
+
+
+        
+        
+        <Route path="/settingPage" element={<SettingPage />}></Route>
       </Route>
       <Route path="/auth" element={<GuestLayout />}>
         <Route path="/auth/login" element={<Login />}></Route>

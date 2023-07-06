@@ -6,9 +6,9 @@ import { faFloppyDisk, faPhone } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
 
 import CircleBar from "../components/CircleBar";
-import FAQ from "../components/FAQ";
+import Faqpython from "../components/Faqpython";
 
-function Form() {
+function Python() {
   const [sidebarToggle] = useOutletContext();
   return (
     <>
@@ -16,7 +16,7 @@ function Form() {
         
         <div className="courseleft">
           <div className="progressCircle">
-          <CircleBar percentage={66} />
+          <CircleBar percentage={20} />
           <div className="title_progress">
 
           <span className="textCourseProgress course_text">course</span>
@@ -24,16 +24,16 @@ function Form() {
           <span className="textCourseProgress">progress</span>
           </div>
 
-          <p className="course_title">Learn Linux commands and  <br />   {'        '}practice as you progress</p>
+          <p className="course_title">Learn python programming  and <br />   {'        '}practice as you progress</p>
 
           <p className="course_description">
-        This linux For Beginners Course Teaches You The linux <br /> termianl Fast. Includes linux Online Training With Linux instance
+        This Python For Beginners Course Teaches You The Python <br /> Language Fast. Includes Python Online Training With Python 3
       </p>
 
       <div className="faq">
 
-      <FAQ  />
-      <Link to="/table">
+      <Faqpython  />
+      <Link to="/PythonInstance">
       <button className="next">Launch Instance</button>
           </Link>
       
@@ -50,19 +50,21 @@ function Form() {
         </div>
         <div className="courseRight">
 
-        <div ><img src="assets/linux.png" alt="Avatar" className="course_cover" /></div>
+        <div ><img src="https://i.ytimg.com/vi/WGJJIrtnfpk/maxresdefault.jpg" alt="Avatar" className="course_cover" /></div>
         <br/>
 
         <div>
         <ul className='fd'>
-              What you'll learn
-          <li>-Quickly Learn the Linux Command Line <br />from Scratch!</li>
-          <li>-Use Bash Scripts and Cron Scheduling <br />Software to Automate Boring Tasks!</li>
-          <li>-Become an Independent User of the Linux <br />Operating System!</li>
-          <li>-Learn how to Search for, Customise, Install<br /> and Manage Open Source Software with <br />Package Managers!</li>
-          <li>-Operate a Linux Computer Entirely from the <br />Command Line!</li>
-          <li>-Gain a Complete Understanding of Linux & fill <br />in any existing knowledge gaps!</li>
-        </ul>
+            what you will learn
+  <li>-Learn the basics of Python programming language.</li>
+  <li>-Understand fundamental concepts such as variables, data types, and control structures.</li>
+  <li>-Explore advanced topics like object-oriented programming (OOP) and functional programming.</li>
+  <li>-Learn how to write and execute Python scripts.</li>
+  <li>-Gain proficiency in using Python libraries and modules for various tasks.</li>
+  <li>-Develop skills in handling file input/output operations.</li>
+  <li>-Learn how to work with databases using Python.</li>
+</ul>
+
       </div>
         </div>
 
@@ -74,4 +76,4 @@ function Form() {
   );
 }
 
-export default Form;
+export default Python;
