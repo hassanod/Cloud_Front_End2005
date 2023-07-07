@@ -15,20 +15,9 @@
 
 ### Pages
 
-There some simple of sample pages that i created on this template.
+The Parallel Practice Web App is a user-friendly application designed to enhance students' learning experience by allowing them to practice exercises in parallel while watching educational videos. This readme file provides an overview of the application's features, installation instructions, and usage guidelines.
 
-Here are all the page from the project:
 
-- Dashboard
-- Halaman
-  - Blank
-  - 404 Not Found
-- Table dan Form
-  - Table
-  - Form
-- Otentikasi
-  - Login
-  - Register
 
 ### Fully Responsive
 
